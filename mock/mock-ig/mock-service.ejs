@@ -1,0 +1,12 @@
+{
+	"port": "10004",
+	"protocol": "http",
+	"name" : "ig mock server",
+	"allowCORS": true,
+    "stubs": [
+        {
+            "responses": [<% include ig-landing/ig_landing_response.ejs%>],
+            "predicates": [<% include ig-landing/ig_landing_predicate.ejs%>]
+        }
+    ]
+}
