@@ -24,7 +24,7 @@ You should have installed it before using it.
 For start web
 `npm start`
 
-# Demo
+# Demo Video
 FullScreen <br />
 https://user-images.githubusercontent.com/68732967/164027607-be643b9e-9feb-4a33-92b5-8c26d1203b1e.mp4 <br />
 Responsive <br />
