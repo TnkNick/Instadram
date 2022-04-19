@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { IGLandingScreen } from './screen/IGLanding'
+import { Provider } from 'react-redux'
+import { store } from './redux/store'
+import { ThemeProvider } from './shared/themes/ThemeProvider'
+import { IGNavBar } from './shared/components'
+import { setConfiguration } from 'react-grid-system';
+import createInstance from './config/axios'
 
 function App() {
+  setConfiguration({ gutterWidth: '0', gridColumns: 12, containerWidths: [540, 740, 960, 1140, 1656] })
+  createInstance(store)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <ThemeProvider>
+        <IGNavBar />
+        <IGLandingScreen />
+      </ThemeProvider>
+    </Provider>
   );
 }
 
