@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# Instadram
+Hi, I'm Tinnakorn Pornsontisakul(Tnk).
+This repo is made to practice making web applications according to instagram.
+By taking the homepage of instagram as a model.
+This includes the Header section, Stories section, Post section, Profile section and suggestion section.
+The data is taken from a mock service created using Mountebank.
+
+# Tech stack
+ReactJS <br />
+Redux <br />
+Javascript <br />
+HTML <br />
+CSS <br />
+React-grid-system (for responsive grid) https://www.npmjs.com/package/react-grid-system <br />
+Axios (for request service) https://www.npmjs.com/package/axios <br />
+Mountebank (for create mock service) http://www.mbtest.org/ <br />
+etc.
+
+# Usage
+For start mock
+You should have installed it before using it.
+`npm install -g mountebank` and Then `cd mock` and `mb --configfile imposters.ejs --allowInjection` for start mock
+
+For start web
+`npm start`
+
+# Demo
+FullScreen <br />
+https://user-images.githubusercontent.com/68732967/164027607-be643b9e-9feb-4a33-92b5-8c26d1203b1e.mp4 <br />
+Responsive <br />
+https://user-images.githubusercontent.com/68732967/164028097-d3f9552a-01a1-4f7b-90ed-33a77f9df8c0.mp4 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
