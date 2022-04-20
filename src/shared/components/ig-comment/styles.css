@@ -1,0 +1,15 @@
+
+.close {
+    color: white;
+    float: right;
+    margin-right: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
