@@ -67,7 +67,7 @@ export const IGContent = (props) => {
                 comments && comments.length > 2 ?
                     <>
                         <div style={styles.info_view_all_section}>
-                            <IGLabel style={styles.info_viewall_content}>{`View all ${comments.length} comments`}&nbsp;</IGLabel>
+                            <IGLabel style={styles.info_viewall_content} onClick={() => props.onClickViewAll(props.index)}>{`View all ${comments.length} comments`}&nbsp;</IGLabel>
                         </div>
                     </>
                     :

@@ -5,6 +5,7 @@ import { IGLabel } from './ig-label'
 import { IGInfoShortSection } from './ig-info-short-section'
 import { IGStoryCarousel } from './ig-story-carousel'
 import { IGContent } from './ig-content'
+import { IGComment } from './ig-comment'
 
 export {
     IGBox,
@@ -13,5 +14,6 @@ export {
     IGLabel,
     IGInfoShortSection,
     IGStoryCarousel,
-    IGContent
+    IGContent,
+    IGComment
 }
