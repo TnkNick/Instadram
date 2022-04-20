@@ -2,7 +2,7 @@
 Hi, I'm Tinnakorn Pornsontisakul(Tnk).
 This repo is made to practice making web applications according to instagram.
 By taking the homepage of instagram as a model.
-This includes the Header section, Stories section, Post section, Profile section and suggestion section.
+This includes the Header section, Stories section, Post section, Profile section Suggestion section and View all comment section.
 The data is taken from a mock service created using Mountebank.
 
 # Tech stack
@@ -24,11 +24,13 @@ You should have installed it before using it.
 For start web
 `npm start`
 
-# Demo Video
+# Demo Video of INSTADRAM
 FullScreen <br />
 https://user-images.githubusercontent.com/68732967/164027607-be643b9e-9feb-4a33-92b5-8c26d1203b1e.mp4 <br />
 Responsive <br />
-https://user-images.githubusercontent.com/68732967/164028097-d3f9552a-01a1-4f7b-90ed-33a77f9df8c0.mp4 
+https://user-images.githubusercontent.com/68732967/164028097-d3f9552a-01a1-4f7b-90ed-33a77f9df8c0.mp4 <br />
+View all comment <br />
+https://user-images.githubusercontent.com/68732967/164289423-264fa570-3172-4df2-9db5-969ca4e72b1b.mp4
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
