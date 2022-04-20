@@ -48,7 +48,8 @@ export default {
         padding: '18px 12px 12px 12px',
     },
     caption_box: {
-        display: 'flex'
+        display: 'flex',
+        alignItems: 'baseline'
     },
     title_image: {
         width: 32,
