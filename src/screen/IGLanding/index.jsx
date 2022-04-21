@@ -7,13 +7,11 @@ import { IGBox, IGInfoShortSection, IGLabel, IGStoryCarousel, IGContent, IGComme
 import styles from './styles'
 import stylesText from '../../shared/components/ig-label/styles'
 import { getHomeInfo } from './landing-service'
-import { generalAction } from '../../redux/general/general-action'
 import { generalStateSelector, GENERAL_STATE_KEY } from '../../redux/general/general-reducer'
 
 export const IGLandingScreen = () => {
     const dispatch = useDispatch()
     const homeInfo = useSelector(landingStateSelector(LANDING_STATE_KEY.HOMEINFO))
-    const lang = useSelector(generalStateSelector(GENERAL_STATE_KEY.LANGUAGE))
     const feed = homeInfo.feed
     const stories = homeInfo.stories
     const suggestionInfo = homeInfo.suggestionsInfo
@@ -30,12 +28,7 @@ export const IGLandingScreen = () => {
                 console.log('failure')
             }
         })
-        dispatch(generalAction.setGeneralState(GENERAL_STATE_KEY.LANGUAGE, 'th'))
     }, [])
-
-    useEffect(() => {
-
-    }, [lang])
 
     const convertDateTimeToTimeAgo = (resp) => {
         const respArray = resp.split(' ')

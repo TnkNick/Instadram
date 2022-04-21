@@ -50,9 +50,9 @@ export const IGComment = (props) => {
                                     </div>
                                 </div>
                                 {/* comment section */}
-                                {comments && comments.map(value => {
+                                {comments && comments.map((value, index) => {
                                     return (
-                                        <div style={styles.comment_body_content}>
+                                        <div style={styles.comment_body_content} key={index}>
                                             <img style={styles.comment_image} src={value.image} />
                                             <div style={styles.title_box}>
                                                 <div style={styles.caption_box}>
